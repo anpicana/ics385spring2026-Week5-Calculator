@@ -20,7 +20,7 @@ app.post("/f2cCalculator", function (req, res) {
   var fTemp = parseFloat(req.body.temp);
 
   //convert Fahrenheit to Celsius
-  var f2c = ((fTemp - 32) * 5) / 9;
+  var f2c = (fTemp - 32) * (5 / 9);
 
   //display the result in 2 decimal places
   res.send(
