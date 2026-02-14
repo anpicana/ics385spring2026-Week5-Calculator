@@ -24,7 +24,7 @@ app.post("/f2cCalculator", function (req, res) {
 
   //display the result in 2 decimal places
   res.send(
-    fTemp + "degrees Fahrenheit converted to Centigrade is " + f2c.toFixed(2)
+    fTemp + " degrees Fahrenheit converted to Centigrade is :" + f2c.toFixed(2)
   );
 });
 
