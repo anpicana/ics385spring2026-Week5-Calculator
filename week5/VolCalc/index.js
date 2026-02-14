@@ -23,7 +23,7 @@ app.post("/VolCalc", function (req, res) {
 
   //display the result in 2 decimal places
   res.send(
-    "The Cylinder Volume given r=" +
+    "The Cylinder Volume, given r=" +
       radius +
       " and h=" +
       height +
