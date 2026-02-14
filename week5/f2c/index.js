@@ -15,7 +15,7 @@ app.get("/", function (req, res) {
 });
 
 //From the form submission::
-app.post("/", function (req, res) {
+app.post("/f2cCalculator", function (req, res) {
   //get the value from the html form
   var fTemp = parseFloat(req.body.temp);
 
